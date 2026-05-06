@@ -1,8 +1,8 @@
 name: Update sqz formula
 
 on:
-  release:
-    types: [published]
+  repository_dispatch:
+    types: [sqz-release]
   workflow_dispatch:
 
 permissions:
