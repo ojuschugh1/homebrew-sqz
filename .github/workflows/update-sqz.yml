@@ -1,8 +1,9 @@
 name: Update sqz formula
 
 on:
-  repository_dispatch:
-    types: [sqz-release]
+  schedule:
+    - cron: "15 3 * * *" # everyday 3:15 UTC
+
   workflow_dispatch:
 
 permissions:
