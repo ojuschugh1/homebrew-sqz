@@ -1,49 +1,49 @@
 class Sqz < Formula
   desc "Universal context intelligence layer for compressing LLM context"
   homepage "https://github.com/ojuschugh1/sqz"
-  version "1.0.9"
+  version "1.3.0"
   license "Elastic-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-v1.0.9-aarch64-apple-darwin.tar.gz"
-      sha256 "59bb4186666a60918efff67c9f588edf90663b46e331f6c6f6611716e59ec97c"
+      url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-v1.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "83d9b87daa1a0c35f820e17c56c29e5ee73af628e9344755353a09b32869cb35"
 
       resource "sqz-mcp" do
-        url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-mcp-v1.0.9-aarch64-apple-darwin.tar.gz"
-        sha256 "352f7c264786bb9785ad62a9faca2a20c21c86ce52330f80936122a897572756"
+        url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-mcp-v1.3.0-aarch64-apple-darwin.tar.gz"
+        sha256 "2c21a1c79b0a27659f51d48764b0c4017990b25e8876e679d38e976fffa96a81"
       end
     end
 
     on_intel do
-      url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-v1.0.9-x86_64-apple-darwin.tar.gz"
-      sha256 "313e0c5daf41a3bf42d10a6648a843967b140f28006832acc7352de19e841926"
+      url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-v1.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "219cf74a4abad064634962e1b8f585cefcfb8d81850a4859bae9b9c3f974463b"
 
       resource "sqz-mcp" do
-        url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-mcp-v1.0.9-x86_64-apple-darwin.tar.gz"
-        sha256 "10afcfffcf787e539ce7fafe1b74acb6d916cca4b8ff8d3cac2caba8e47b2f1a"
+        url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-mcp-v1.3.0-x86_64-apple-darwin.tar.gz"
+        sha256 "2f3f9e8e710a12fb32f936f6fbda79a694caa0a6e14323f550e767eb4eb779f5"
       end
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-v1.0.9-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7fe10f76dca78d9d7e6d88e2c0f1ffc24b719a75f1480094f2895240bdd8155f"
+      url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-v1.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "f19cd9cdf2f47e5d5c39c13e53ec51dcfccac321fac0336970daafe6afa920c0"
 
       resource "sqz-mcp" do
-        url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-mcp-v1.0.9-aarch64-unknown-linux-musl.tar.gz"
-        sha256 "06261e969618f7ce74e1bd9fd289b5812502d8769e2181123950fa8c76e45979"
+        url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-mcp-v1.3.0-aarch64-unknown-linux-musl.tar.gz"
+        sha256 "c71c6a4e56ff2490fb69bb65fb86426673b0d491e06c5fdb7220eed454e4dafb"
       end
     end
 
     on_intel do
-      url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-v1.0.9-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "27fb072781922fad45bad91cadaeb6b4a4a40546a36abdef01588ec6877e0527"
+      url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-v1.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "bff830e68d46239f865a7156bf3c500764a7592ebc5d9bd03c0128ef54aabf1a"
 
       resource "sqz-mcp" do
-        url "https://github.com/ojuschugh1/sqz/releases/download/v1.0.9/sqz-mcp-v1.0.9-x86_64-unknown-linux-musl.tar.gz"
-        sha256 "c99c0c3c4f1b102e6a5bf4ebf1278b537dc3d97e84f787fd7f6761eea56eb8e5"
+        url "https://github.com/ojuschugh1/sqz/releases/download/v1.3.0/sqz-mcp-v1.3.0-x86_64-unknown-linux-musl.tar.gz"
+        sha256 "916b3090d47165aff36241ab5c1ed2a57dea30eea100f52dda9d58b589c8be30"
       end
     end
   end
