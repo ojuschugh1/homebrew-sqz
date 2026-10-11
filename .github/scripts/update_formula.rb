@@ -65,7 +65,7 @@ def render_formula(version, files)
       desc "Universal context intelligence layer for compressing LLM context"
       homepage "https://github.com/ojuschugh1/sqz"
       version "#{version}"
-      license "Elastic-2.0"
+      license any_of: ["MIT", "Apache-2.0"]
 
       on_macos do
         on_arm do
